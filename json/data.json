@@ -1,0 +1,175 @@
+{
+    "personajes":[
+            {
+                "nombre" : "Albedo", 
+                "img_icon":"./assets/icon-p/Albedo.png",
+                "perfil":"Albedo, un alquimista de Mondstadt al servicio de los Caballeros de Favonius ",
+                "cumple" : "13 de Septiembre", 
+                "rareza":5,
+                "sexo":"Masculino",
+                "region":"Mondstadt",
+                "afiliacion":"Caballeros de Favonius",
+                "elemento":"Geo",
+                "arma":"Espada Ligera",
+                "plato":"Sueño Silvano",
+                "icon_plato":"../assets/icon-comida/sueno_silvano.png",
+                "voces":[
+                    {
+                        "chino":"Minyue Lu",
+                        "chino-k":"陆敏悦",
+                        "chino-aka":"Mace",
+                        "japones":"Kenji Nojima",
+                        "japones-k":"野島健児",
+                        "coreano":"Kim Myung-jun",
+                        "coreano-k":"김명준",
+                        "ingles":"Khoi Deo"
+                    }
+                ],
+                "carta":"./assets/carta-p/Albedo.png",
+                "arte":"./assets/arte/Albedo.png",
+                "modelo":"./assets/modelo-p/Albedo.png",
+                "combate":[
+                    {
+                        "constelacion":"Príncipe cretáceo",
+                        "c1":{
+                            "nombre":"Flor del Edén",
+                            "icon":"./assets/constelacion/albedo/c1.png",
+                            "desc":"Cuando explota una flor fugaz de Abiogénesis: Isotoma solar creara por Albedo, este recupera 1.2 pts. de Energía Elemental."
+                        },
+                        "c2":{
+                            "nombre":"Eón Fanerozoico",
+                            "icon":"./assets/constelacion/albedo/c2.png",
+                            "desc":"Al explotar, las flores fugaces de Abiogénesis: Isotoma solar otorgan a Albedo aritmética fatídica durante 30 s: Cada acumulación de aritmética fatídica aumenta el daño de Albedo en una cantidad igual al 30% de su DEF. Puede acumularse un máximo de 4 veces.Creación: Marea tectónica consume la aritmética fatídica, eliminando todas sus acumulaciones y aumentando el daño infligido por las explosiones de Creación: Marea tectónica y de las flores de la muerte"
+                        },
+                        "c3":{
+                            "nombre":"Gracia de Helios",
+                            "icon":"./assets/constelacion/albedo/c3.png",
+                            "desc":"Aumenta el nivel de habilidad de Abiogénesis: Isotoma solar +3. Puede ser aumentado hasta Niv. 15."
+                        },
+                        "c4":{
+                            "nombre":"Caída divina",
+                            "icon":"./assets/constelacion/albedo/c4.png",
+                            "desc":"Si los personajes en uso están en el área de la isotoma solar, aumenta en un 30% el daño de sus Ataques Descendientes."
+                        },
+                        "c5":{
+                            "nombre":"Marea del Hádico",
+                            "icon":"./assets/constelacion/albedo/c5.png",
+                            "desc":"Aumenta el nivel de habilidad de Creación: Marea tectónica +3. Puede ser aumentado hasta Niv. 15."
+                        },
+                        "c6":{
+                            "nombre":"Tierra purificadora",
+                            "icon":"./assets/constelacion/albedo/c6.png",
+                            "desc":"Aumenta en un 17% el daño de los personajes si estos están en el área de la isotoma solar y bajo la protección de un escudo creado mediante Cristalización."
+                        }
+                    },
+                    {
+                        "basico":{
+                            "icon":"./assets/talentos/albedo/a_basico.png",
+                            "nombre":"Técnica de espada Favonius - Albor",
+                            "normal":"Realiza hasta 5 ataques rápidos.",
+                            "cargado":"Consume una cierta cantidad de Aguante para lanzar un golpe de espada cruzado.",
+                            "descendente":"Se lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto."
+                        },
+                        "elemental":{
+                            "icon":"./assets/talentos/albedo/a_elemental.png",
+                            "nombre":"Isotoma Solar",
+                            "efecto":"Crea una isotoma solar que inflige Daño Geo en el AdE.",
+                            "efecto-2":"Cuando los enemigos situados en el centro del área de la isotoma solar reciben daño, esta se convertirá en una flor fugaz, abriéndose e infligiendo Daño Geo en el AdE proporcional a la DEF de Albedo.",
+                            "efecto-3":"Solo puede crearse una flor fugaz cada 2 s.",
+                            "efecto-4":"Cuando un personaje se sitúa sobre la isotoma solar, el poder de Geo se concentrará para formar una plataforma cristalizada de cierta altura sobre la que se podrán mantener los personajes.",
+                            "efecto-5":"Solo puede existir a la vez una isotoma creada por Albedo. La isotoma solar se considera una creación Geo.",
+                            "pulsar":"Controla la ubicación sobre la que tiene lugar la habilidad."
+                        },
+                        "definitiva":{
+                            "icon":"./assets/talentos/albedo/a_definitiva.png",
+                            "nombre":"Marea tectonica",
+                            "efecto":"Albedo ordena a sus cristales Geo que exploten, lanzándolos al frente e infligiendo Daño Geo en el AdE",
+                            "efecto-2":"Si en el campo de batalla ya hay una isotoma solar creada por Albedo, creará 7 flores de la muerte dentro del área de la isotoma, provocando una violenta explosión que inflige Daño Geo en el AdE.",
+                            "efecto-3":"El daño causado por la explosión y las flores de la muerte no creará una flor fugaz."
+                        },
+                        "pasiva-1":{
+                            "icon":"./assets/talentos/albedo/pasiva_1.png",
+                            "nombre":"Fuerza Caliza",
+                            "desc":"Aumenta en un 25% el daño infligido por la flor fugaz de Abiogénesis: Isotoma solar contra los enemigos con menos del 50% de Vida."
+                        },
+                        "pasiva-2":{
+                            "icon":"./assets/talentos/albedo/pasiva_2.png",
+                            "nombre":"Sabiduría del homúnculo",
+                            "desc":"Creación: Marea tectónica aumenta en 125 pts. la Maestría Elemental de los personajes del equipo cercanos durante 10 s."
+                        },
+                        "pasiva-3":{
+                            "icon":"./assets/talentos/albedo/pasiva_3.png",
+                            "nombre":"Genio de la alquimia",
+                            "desc":"Al crear materiales de ascensión de arma, hay una probabilidad del 10% de recibir el doble."
+                        }
+                    }
+                ]
+            }
+    ],
+    "armas":[
+        {
+            "nombre":"Agitador del Relampago",
+            "img":"./assets/arma/arcos/Arma_Agitador_del_Relampago.png",
+            "img_asc":"./assets/arma/arcos/Arma_Agitador_del_Relampago_Ascendido.png",
+            "tipo":"Arco",
+            "descripcion":"Un arco que la Shogun le otorgó a alguien. Emite unos destellos eléctricos que nunca se apagarán",
+            "rareza":5,
+            "obtencion":"gachapón",
+            "efecto_pasivo":"Imperio del trueno",
+            "base":{
+                "ataque_base":46,
+                "tipo_stat_sec":"Daño CRIT",
+                "base_stat_sec":"14.4%"
+            },
+            "stats":{
+                "asc_nvl_1":{
+                    "nvl_min":20,
+                    "atq_bas":122,
+                    "nvl_max":40,
+                    "atq_max":153,
+                    "dmg_crit":"25.4%"
+                },
+                "asc_nvl_2":{
+                    "nvl_min":40,
+                    "atq_bas":235,
+                    "nvl_max":50,
+                    "atq_max":266,
+                    "dmg_crit":"37.1%"
+                },
+                "asc_nvl_3":{
+                    "nvl_min":50,
+                    "atq_bas":308,
+                    "nvl_max":60,
+                    "atq_max":340,
+                    "dmg_crit":"42.9%"
+                },
+                "asc_nvl_4":{
+                    "nvl_min":60,
+                    "atq_bas":382,
+                    "nvl_max":70,
+                    "atq_max":414,
+                    "dmg_crit":"48.7%"
+                },
+                "asc_nvl_5":{
+                    "nvl_min":70,
+                    "atq_bas":457,
+                    "nvl_max":80,
+                    "atq_max":488,
+                    "dmg_crit":"54.5%"
+                },
+                "asc_nvl_6":{
+                    "nvl_min":80,
+                    "atq_bas":532,
+                    "nvl_max":90,
+                    "atq_max":563,
+                    "dmg_crit":"60.3%"
+                },
+                "asc_nvl_7":{
+                    "nvl_max":90,
+                    "atq_max":608,
+                    "dmg_crit":"66.2%"
+                }
+            }
+        }
+    ]
+}
