@@ -6,6 +6,14 @@
                 "perfil":"Albedo, un alquimista de Mondstadt al servicio de los Caballeros de Favonius ",
                 "cumple" : "13 de Septiembre", 
                 "rareza":5,
+                "titulos":[
+                    {
+                        "1":"Kreideprinz",
+                        "2":"Jefe Alquimista",
+                        "3":"Capitán del equipo de investigación",
+                        "4":"El Príncipe de la Piedra Caliza"
+                    }
+                ],
                 "sexo":"Masculino",
                 "region":"Mondstadt",
                 "afiliacion":"Caballeros de Favonius",
@@ -74,18 +82,18 @@
                             "icon":"./assets/talentos/albedo/a_elemental.png",
                             "nombre":"Isotoma Solar",
                             "efecto":"Crea una isotoma solar que inflige Daño Geo en el AdE.",
-                            "efecto-2":"Cuando los enemigos situados en el centro del área de la isotoma solar reciben daño, esta se convertirá en una flor fugaz, abriéndose e infligiendo Daño Geo en el AdE proporcional a la DEF de Albedo.",
-                            "efecto-3":"Solo puede crearse una flor fugaz cada 2 s.",
-                            "efecto-4":"Cuando un personaje se sitúa sobre la isotoma solar, el poder de Geo se concentrará para formar una plataforma cristalizada de cierta altura sobre la que se podrán mantener los personajes.",
-                            "efecto-5":"Solo puede existir a la vez una isotoma creada por Albedo. La isotoma solar se considera una creación Geo.",
+                            "efecto_2":"Cuando los enemigos situados en el centro del área de la isotoma solar reciben daño, esta se convertirá en una flor fugaz, abriéndose e infligiendo Daño Geo en el AdE proporcional a la DEF de Albedo.",
+                            "efecto_3":"Solo puede crearse una flor fugaz cada 2 s.",
+                            "efecto_4":"Cuando un personaje se sitúa sobre la isotoma solar, el poder de Geo se concentrará para formar una plataforma cristalizada de cierta altura sobre la que se podrán mantener los personajes.",
+                            "efecto_5":"Solo puede existir a la vez una isotoma creada por Albedo. La isotoma solar se considera una creación Geo.",
                             "pulsar":"Controla la ubicación sobre la que tiene lugar la habilidad."
                         },
                         "definitiva":{
                             "icon":"./assets/talentos/albedo/a_definitiva.png",
                             "nombre":"Marea tectonica",
                             "efecto":"Albedo ordena a sus cristales Geo que exploten, lanzándolos al frente e infligiendo Daño Geo en el AdE",
-                            "efecto-2":"Si en el campo de batalla ya hay una isotoma solar creada por Albedo, creará 7 flores de la muerte dentro del área de la isotoma, provocando una violenta explosión que inflige Daño Geo en el AdE.",
-                            "efecto-3":"El daño causado por la explosión y las flores de la muerte no creará una flor fugaz."
+                            "efecto_2":"Si en el campo de batalla ya hay una isotoma solar creada por Albedo, creará 7 flores de la muerte dentro del área de la isotoma, provocando una violenta explosión que inflige Daño Geo en el AdE.",
+                            "efecto_3":"El daño causado por la explosión y las flores de la muerte no creará una flor fugaz."
                         },
                         "pasiva-1":{
                             "icon":"./assets/talentos/albedo/pasiva_1.png",
@@ -101,6 +109,106 @@
                             "icon":"./assets/talentos/albedo/pasiva_3.png",
                             "nombre":"Genio de la alquimia",
                             "desc":"Al crear materiales de ascensión de arma, hay una probabilidad del 10% de recibir el doble."
+                        }
+                    }
+                ]
+            },
+            {
+                "nombre" : "Aloy", 
+                "img_icon":"./assets/icon-p/Aloy.png",
+                "perfil":"No soy una persona a la que le guste hablar de sí misma. Lo importante es la misión. ",
+                "cumple" : "Desconocido", 
+                "rareza":5,
+                "titulos":[
+                    {
+                        "1":"La Salvadora de Otro Mundo",
+                        "2":"Cazadora Nora"
+                    }
+                ],
+                "sexo":"Femenino",
+                "region":"Desconocida",
+                "afiliacion":"Rebelde",
+                "elemento":"Cryo",
+                "arma":"Arco",
+                "plato":"Gel Saciante",
+                "icon_plato":"../assets/icon-comida/gel_saciante.png",
+                "voces":[
+                    {
+                        "ingles":"Desconocida",
+                        "japones":"Takagaki Ayahi"
+                    }
+                ],
+                "carta":"./assets/carta-p/Aloy.png",
+                "arte":"./assets/arte/Aloy.png",
+                "modelo":"./assets/modelo-p/Aloy.png",
+                "combate":[
+                    {
+                        "constelacion":"Nora Fortis",
+                        "c1":{
+                            "nombre":"Desconocida",
+                            "icon":"./assets/constelacion/aloy/c1.png",
+                            "desc":"Aún no es el momento de que el cielo de esta persona se ilumine."
+                        },
+                        "c2":{
+                            "nombre":"Desconocida",
+                            "icon":"./assets/constelacion/aloy/c1.png",
+                            "desc":"Aún no es el momento de que el cielo de esta persona se ilumine."
+                        },
+                        "c3":{
+                            "nombre":"Desconocida",
+                            "icon":"./assets/constelacion/aloy/c1.png",
+                            "desc":"Aún no es el momento de que el cielo de esta persona se ilumine."
+                        },
+                        "c4":{
+                            "nombre":"Desconocida",
+                            "icon":"./assets/constelacion/aloy/c1.png",
+                            "desc":"Aún no es el momento de que el cielo de esta persona se ilumine."
+                        },
+                        "c5":{
+                            "nombre":"Desconocida",
+                            "icon":"./assets/constelacion/aloy/c1.png",
+                            "desc":"Aún no es el momento de que el cielo de esta persona se ilumine."
+                        },
+                        "c6":{
+                            "nombre":"Desconocida",
+                            "icon":"./assets/constelacion/aloy/c1.png",
+                            "desc":"Aún no es el momento de que el cielo de esta persona se ilumine."
+                        }
+                    },
+                    {
+                        "basico":{
+                            "icon":"./assets/talentos/aloy/a_basico.png",
+                            "nombre":"Fuego Rápido",
+                            "normal":"Realiza hasta 4 ataques consecutivos.",
+                            "cargado":"Puede realizar un disparo más preciso que inflige más daño. Al apuntar, crea escarcha que acumula frío en la punta de la flecha. Cuando el frío se acumula por completo, la flecha inflige Daño Cryo al impactar contra el enemigo."
+                        },
+                        "elemental":{
+                            "icon":"./assets/talentos/aloy/a_elemental.png",
+                            "nombre":"Campo Gélido",
+                            "efecto":"Lanza una bomba helada hacia la dirección en la que apunta y, al impactar, produce una explosión que inflige Daño Cryo. Al explotar, la bomba se divide en varias minibombas ultracongelantes que explotan al entrar en contacto con un enemigo o tras cierto tiempo, infligiendo Daño Cryo.",
+                            "efecto_2":"Al golpear a un enemigo, la bomba helada o las minibombas ultracongelantes reducen el ATQ de dicho enemigo y otorgan a Aloy una carga del efecto de inducción. Solo se puede obtener una carga de inducción cada 0.1 s.",
+                            "efecto_3":"Inducción: Aumenta el daño que inflige Aloy con su Ataque Normal en función del número de cargas de inducción. • Cuando tiene 4 cargas, Aloy las consume todas y obtiene 'hielo galopante', el cual aumenta aún más el daño de su Ataque Normal y transforma en Daño Cryo todo el daño infligido con dicho ataque.",
+                            "efecto_4":"En el estado de hielo galopante, Aloy no podrá beneficiarse de inducción. Los efectos de inducción se perderán 30 s después de que Aloy sea retirada de combate."                         
+                        },
+                        "definitiva":{
+                            "icon":"./assets/talentos/aloy/a_definitiva.png",
+                            "nombre":"Profecía del Amanecer",
+                            "efecto":"Aloy lanza una batería rebosante de Cryop hacia la direccíon en la que apunta y la detona con una flecha, infligiendo Daño Cryo en el AdE."
+                        },
+                        "pasiva-1":{
+                            "icon":"./assets/talentos/aloy/pasiva_1.png",
+                            "nombre":"Superposición bélica",
+                            "desc":"Cuando Aloy está bajo los efectos de inducción de Campo gélido, su ATQ aumenta en un 16% y el ATQ de los miembros cercanos del equipo aumenta en un 8% durante 10 s."
+                        },
+                        "pasiva-2":{
+                            "icon":"./assets/talentos/aloy/pasiva_2.png",
+                            "nombre":"Golpe Contundente",
+                            "desc":"Cuando Aloy está bajo los efectos de hielo galopante de Campo gélido, obtiene un 3.5% de Bono de Daño Cryo por segundo. Solo se puede alcanzar un máximo de 35% de bono de Daño Cryo de esta manera."
+                        },
+                        "pasiva-3":{
+                            "icon":"./assets/talentos/aloy/pasiva_3.png",
+                            "nombre":"Cazadora de lo salvaje",
+                            "desc":"Cuando Aloy está en el equipo, tus personajes no asustarán a los animales de los que se puede obtener carne de ave, carne cruda y carne congelada."
                         }
                     }
                 ]

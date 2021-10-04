@@ -184,6 +184,8 @@ section{
 }
 .pjImg{
     align-self: center;
+    max-height: 100px;
+    max-width:100px;
     width: auto;
     height: auto;
     margin: 1% auto;
@@ -274,5 +276,12 @@ section{
     }
     .column-grid{
         margin: 0%;
+    }
+    .cont{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 90%;
+        margin: 5% 5%;
+        gap: 2%;
     }
 }

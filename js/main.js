@@ -26,22 +26,24 @@ const main = () =>{
                 }
         }
         divEvent.onclick = function(event){
-                let url='../json/data.json'
+               /* let url='../json/data.json'
                 cargarDatos(url, 4);  
                 rmChildNodes(centro);    
                 console.log("Buscando eventos..."); 
                 if(cont.firstChild){
                         rmChildNodes(cont);
-                }
+                }*/
+                alert('Ir a eventos');
         }
         btns[1].onclick = function(event){
-                let url='../json/data.json'
-                cargarDatos(url, 4);
-                rmChildNodes(centro);
+                /* let url='../json/data.json'
+                cargarDatos(url, 4);  
+                rmChildNodes(centro);    
                 console.log("Buscando eventos..."); 
                 if(cont.firstChild){
                         rmChildNodes(cont);
-                }
+                }*/
+                alert('Ir a eventos');
         }
         divWpn.onclick = function(event){
                 let url='../json/data.json'
